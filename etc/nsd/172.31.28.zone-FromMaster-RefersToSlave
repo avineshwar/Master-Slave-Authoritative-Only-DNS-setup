@@ -1,0 +1,19 @@
+$ORIGIN 28.31.172.in-appr.arpa.
+$TTL 1800
+
+@       IN      SOA     ip-172-31-70-217.ec2-54-166-215-107.compute-1.amazonaws.com.      AnyAdminMailHere.ec2-54-166-215-107.compute-1.amazonaws.com. (
+                        2017032201        ; serial number
+                        3600                    ; refresh
+                        900                     ; retry
+                        1209600                 ; expire
+                        1800                    ; ttl
+                        )
+
+; Name servers
+			IN      NS      ip-172-31-70-217.ec2-54-166-215-107.compute-1.amazonaws.com.
+			IN 	NS 	ip-172-31-28-91.ec2-54-166-215-107.compute-1.amazonaws.com.
+
+; PTR records
+1                       IN      PTR     ip-172-31-70-217.ec2-54-166-215-107.compute-1.amazonaws.com.
+2			IN	PTR	ip-172-31-28-91.ec2-54-166-215-107.compute-1.amazonaws.com.
+3			IN	PTR	www.ip-172-31-70-217.ec2-54-166-215-107.compute-1.amazonaws.com.
